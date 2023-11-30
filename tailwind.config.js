@@ -70,9 +70,9 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-    },
-    fontFamily: {
-      signature: 'Great Vibes'
+      fontFamily: {
+        'pacifico': ['Pacifico', 'cursive'],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
