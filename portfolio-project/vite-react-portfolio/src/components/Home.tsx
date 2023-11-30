@@ -84,7 +84,7 @@ export default function Home() {
       Hello, World
       <Button>Click</Button>
       <Icon className="text-3xl" icon="material-symbols:home" />
-      <CardDemo />
+      <CardDemo className="bg-red-50" />
     </div>
   );
 }
