@@ -15,8 +15,11 @@ export default function Home() {
             Currently, I build applications using React, Tailwind, Typescript, and Vite.
           </p>
           <div>
-            <Button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-teal-500 to-green-500 cursor-pointer'>Portfolio
+            <Button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-teal-500 to-green-500 cursor-pointer' asChild>
+              <a href="#portfolio">
+              Portfolio
               <Icon className='group-hover:rotate-90 duration-300 ml-1' icon="material-symbols:arrow-forward-ios-rounded"/>
+              </a>
             </Button>
           </div>
         </div>
