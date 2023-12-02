@@ -68,15 +68,15 @@ const Experience = () => {
 
 
   return (
-    <div id='experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+    <div id='experience' className='bg-gradient-to-b from-gray-800 to-black w-full min-h-screen lg:h-screen pt-24 lg:pt-0'>
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
 
             <div>
-                <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
-                <p className='py-6'>These are the technologies I've worked with</p>
+                <p className='text-xl sm:text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
+                <p className='text-sm sm:text-xl py-6'>These are the technologies I've worked with</p>
             </div>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+            <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8 text-center py-8 px-12 sm:px-36 lg:px-0'>
 
                 {
                     tech.map(({id, src, title, style}) => (
