@@ -1,4 +1,5 @@
 # React + TypeScript + Vite + Tailwindcss + Iconify + Shadcn/ui
 
-This is a personal portfolio build in the above dependencies
+This is a personal portfolio project built in the above dependencies.  
+Mostly using tailwind for styling and some iconify icons. Shadcn/ui for buttons.
 
