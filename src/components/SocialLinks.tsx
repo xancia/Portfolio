@@ -37,7 +37,7 @@ const SocialLinks = () => {
                     Resume <Icon className='text-3xl' icon="material-symbols:lab-profile"/>
                 </>
             ),
-            href: '/resume.pdf',
+            href: '/resume-2024.pdf',
             style: 'rounded-br-md',
             download: true
         },
