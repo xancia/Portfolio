@@ -1,13 +1,25 @@
-import gameImage from "/game.jpg";
+
 import { Button } from "./ui/button";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: gameImage,
+      src: "https://i.imgur.com/QyurKb8.jpeg",
       code: "https://github.com/xancia/FirstProject",
       demo: "https://xancia.github.io/FirstProject/",
+    },
+    {
+      id: 2,
+      src: "https://i.imgur.com/rF69FJz.jpeg",
+      code: "https://github.com/xancia/ProjectTwo",
+      demo: "https://pcgamedeals.netlify.app/",
+    },
+    {
+      id: 3,
+      src: "https://i.imgur.com/4vcMwdg.jpeg",
+      code: "https://github.com/xancia/Final-Project",
+      demo: "https://anime-tracker-e07j.onrender.com/",
     },
   ];
 
@@ -30,7 +42,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt="my game"
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md h-40 w-full duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <Button
