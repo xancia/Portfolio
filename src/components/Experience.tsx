@@ -7,6 +7,9 @@ import Reactlogo from '/reactjs-icon.svg'
 import Githublogo from '/github-mark-white.svg'
 import Nodelogo from '/nodejs-icon.svg'
 import Mongodblogo from '/mongodb-icon.svg'
+import javalogo from '/java.svg'
+import csharplogo from '/c-sharp-c.svg'
+import dotnetlogo from '/NET_Core_Logo.svg'
 
 const Experience = () => {
     const tech = [
@@ -64,6 +67,24 @@ const Experience = () => {
             title: 'MongoDB',
             style: 'shadow-green-600'
         },
+        {
+            id: 7,
+            src: javalogo,
+            title: 'Java',
+            style: 'shadow-orange-600'
+        },
+        {
+            id: 8,
+            src: csharplogo,
+            title: 'C#',
+            style: 'shadow-purple-500'
+        },
+        {
+            id: 9,
+            src: dotnetlogo,
+            title: 'ASP.NET',
+            style: 'shadow-purple-700'
+        },
     ]
 
 
@@ -81,8 +102,8 @@ const Experience = () => {
                 {
                     tech.map(({id, src, title, style}) => (
                         <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                            <img src={src} alt="" className='w-20 mx-auto' />
-                            <p className='mt-4'>{title}</p>
+                            <img src={src} alt="" className='w-20 h-20 mx-auto' />
+                            <p className='mt-4'>{title}</p>   
                         </div>
                     ))
                 }
