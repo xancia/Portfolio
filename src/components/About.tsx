@@ -18,7 +18,8 @@ const About = () => {
         <p className="text-sm mt-5 md:mt-10 md:text-xl">
         My journey into web development started at Per
           Scholas, where I discovered my love for coding and digital innovation with the MERN Stack.
-          Since then, I've trained lightly in Java and heavily in .NET framework with ASP.NET Core Web Api for developing robust back-end RESTful API's.
+          Since then, I've trained lightly in Java before being introducted to the .NET framework at Revature, specifically to the ASP.NET Core Web Api for developing robust back-end RESTful API's. 
+          My two training experiences gave me the skills I needed to be well-rounded Full-Stack developer.
         </p>
 
         <br />
