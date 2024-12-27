@@ -12,7 +12,7 @@ export default function Home() {
           </h2>
           <p className='text-gray-500 py-4 max-w-md'>
             An Emerging Software Engineer looking to advance my career in the industry. 
-            Currently, I build applications using .NET Core, ReactJS, Tailwind, Typescript, and Vite.
+            Currently, I build applications using ASP.NET Core, ReactJS, Tailwind, Typescript, and Vite.
           </p>
           <div>
             <Button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-teal-500 to-green-500 cursor-pointer' asChild>

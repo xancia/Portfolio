@@ -12,16 +12,13 @@ const About = () => {
         </div>
 
         <p className="text-sm mt-5 md:mt-20 md:text-xl">
-          Hi! I'm Cuong, a passionate Full Stack Developer specializing in MERN
-          stack technologies. 
+          Hi! I'm Cuong, a passionate Full Stack .NET Developer.
         </p>
 
         <p className="text-sm mt-5 md:mt-10 md:text-xl">
         My journey into web development started at Per
-          Scholas, where I discovered my love for coding and digital innovation.
-          Since then, I've honed my skills in JavaScript, React, Node.js, and
-          MongoDB, working on various projects ranging from interactive web
-          applications to scalable backend solutions.
+          Scholas, where I discovered my love for coding and digital innovation with the MERN Stack.
+          Since then, I've trained lightly in Java and heavily in .NET framework with ASP.NET Core Web Api for developing robust back-end RESTful API's.
         </p>
 
         <br />
