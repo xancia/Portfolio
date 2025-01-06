@@ -16,10 +16,13 @@ const About = () => {
         </p>
 
         <p className="text-sm mt-5 md:mt-10 md:text-xl">
-        My journey into web development started at Per
-          Scholas, where I discovered my love for coding and digital innovation with the MERN Stack.
-          Since then, I've trained lightly in Java before being introducted to the .NET framework at Revature, specifically to the ASP.NET Core Web Api for developing robust back-end RESTful API's. 
-          My two training experiences gave me the skills I needed to be well-rounded Full-Stack developer.
+          My journey into web development started at Per Scholas, where I
+          discovered my love for coding and digital innovation with the MERN
+          Stack. Since then, I've trained lightly in Java before being
+          introducted to the .NET framework at Revature, specifically to the
+          ASP.NET Core Web Api for developing robust back-end RESTful API's. My
+          two training experiences gave me the skills I needed to be
+          well-rounded Full-Stack developer.
         </p>
 
         <br />
@@ -28,15 +31,15 @@ const About = () => {
           I believe in writing clean, efficient code and am always eager to
           embrace new challenges and learn new technologies. My approach is
           user-centric, focusing on creating intuitive and engaging digital
-          experiences. 
+          experiences.
         </p>
 
         <p className="text-sm mt-5 md:mt-10 md:text-xl">
-        When I'm not coding, you can find me exploring the latest
-          trends in technology, playing MMORPGs, or planning my next trip to
-          Japan. Feel free to browse my portfolio to see my work. If you have an
-          exciting project or just want to say hi, don't hesitate to contact me
-          at my email or connect with me at my socials below!
+          When I'm not coding, you can find me exploring the latest trends in
+          technology, playing MMORPGs, or planning my next trip to Japan. Feel
+          free to browse my portfolio to see my work. If you have an exciting
+          project or just want to say hi, don't hesitate to contact me at my
+          email or connect with me at my socials below!
         </p>
       </div>
     </div>
