@@ -27,8 +27,8 @@ const Portfolio = () => {
     {
       id: 4,
       src: socialmedia,
-      code: "https://github.com/241209-NET/Cuong_Ma/tree/main/Project1",
-      demo: "https://github.com/241209-NET/Cuong_Ma/tree/main/Project1",
+      code: "https://github.com/241209-NET/Team6-Frontend",
+      demo: "https://white-island-0a58c890f.4.azurestaticapps.net/",
     },
   ];
 
