@@ -3,6 +3,7 @@ import survivor from "/survivor.jpg";
 import pcgamedeals from "/pcgamedeals.jpg";
 import animetracker from "/animetracker.jpg";
 import socialmedia from "/socialmedia.jpg";
+import JJIMP from "/JJIMP.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -29,6 +30,12 @@ const Portfolio = () => {
       src: socialmedia,
       code: "https://github.com/241209-NET/Team6-Frontend",
       demo: "https://white-island-0a58c890f.4.azurestaticapps.net/",
+    },
+    {
+      id: 5,
+      src: JJIMP,
+      code: "https://github.com/241209-NET/JJIMP.FRONTEND",
+      demo: "https://delightful-beach-074599d0f.4.azurestaticapps.net/",
     },
   ];
 

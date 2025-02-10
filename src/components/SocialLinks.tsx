@@ -38,7 +38,7 @@ const SocialLinks = () => {
           <Icon className="text-3xl" icon="material-symbols:lab-profile" />
         </>
       ),
-      href: "/Cuong Ma Resume 2024.pdf",
+      href: "/CUONG MA_.NET Engineers 2025.pdf",
       style: "rounded-br-md",
       download: true,
     },
